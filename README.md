@@ -1,6 +1,6 @@
 ## Hello 👋
 
-Languages:
+**Languages:**
 
 - Lua
 
