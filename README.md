@@ -30,6 +30,7 @@
       <img alt="JavaScript" src="./media/badges/javascript.svg">
       <img alt="NodeJS" src="./media/badges/nodejs.svg">
       <img alt="Lua" src="./media/badges/lua.svg">
+      <img alt="JSON" src="./media/badges/json.svg">
       <img alt="Markdown" src="./media/badges/markdown.svg">
     </td>
     <td align="center">
