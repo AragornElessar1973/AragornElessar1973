@@ -96,5 +96,13 @@
   </h1>
 </div>
 
-| [![Aragorn's GitHub stats](https://github-readme-stats.vercel.app/api?username=AragornElessar1973&count_private=true&hide=contribs,prs&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats) | [![Aragorn's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=aragorn&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats) |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+<table align="center">
+  <tr>
+    <td width="50%" align="center">  
+      <img alt="Github stats" src="https://github-readme-stats.vercel.app/api?username=AragornElessar1973&count_private=true,prs&show_icons=true&hide_border=true&theme=tokyonight">
+    </td>
+    <td width="50%" align="center">
+      <img alt="Wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=aragorn&hide_border=true&theme=tokyonight">
+    </td>
+  </tr>
+</table>
