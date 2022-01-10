@@ -30,6 +30,7 @@
       <img alt="JavaScript" src="./media/badges/javascript.svg">
       <img alt="NodeJS" src="./media/badges/nodejs.svg">
       <img alt="Lua" src="./media/badges/lua.svg">
+      <img alt="Markdown" src="./media/badges/markdown.svg">
     </td>
     <td align="center">
       <img alt="Solar 2D" src="./media/badges/solar2d.svg">
@@ -80,7 +81,6 @@
       <img alt="VSCode" src="./media/badges/vscode.svg">
       <img alt="Notepad++" src="./media/badges/notepad.svg">
       <img alt="NPM" src="./media/badges/npm.svg">
-      <img alt="Markdown" src="./media/badges/markdown.svg">
       <img alt="Git" src="./media/badges/devtools.svg">
       <img alt="Bash" src="./media/badges/bash.svg">
       <img alt="Powershell" src="./media/badges/powershell.svg">
