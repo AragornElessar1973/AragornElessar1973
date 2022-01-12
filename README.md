@@ -1,4 +1,6 @@
-<img alt="Stats & Metrics" src="./metrics.svg">
+<div align="center">
+    <img width="100%" alt="Stats & Metrics" src="./metrics.svg">
+</div>
 
 <table align="center">
     <tr>
