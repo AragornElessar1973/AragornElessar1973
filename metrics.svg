@@ -79,13 +79,9 @@
             border: 10px solid rgba(128, 0, 0, 0.7);
             border-radius: 50px;
 
-            <!-- ease-in-out -->
             animation: borderAnimation 5s linear infinite;
         }
 
-        td:after {
-            
-        }
 
         @keyframes borderAnimation {
             0% {border-image: linear-gradient(to right, rgba(102,102,255,0.7), rgba(0,153,255,0.7), rgba(0,255,0,0.7), rgba(255,51,153,0.7), rgba(102,102,255,0.7));border-image-slice: 1;}
