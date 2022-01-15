@@ -76,9 +76,6 @@
         td {
             text-align: center;
             padding: 10px;
-
-            border: 3px solid rgba(128, 0, 0, 0.7);
-            border-radius: 50px;
         }
 
         <!-- * Stying for animations (below )-->
@@ -99,12 +96,17 @@
         }
 
         td {
+            border: 3px solid rgba(128, 0, 0, 0.7);
+            border-radius: 50px;
             border-image: conic-gradient(from 0.00deg, rgba(255, 0, 0, 0.7),rgba(255, 154, 0, 0.7),rgba(208, 222, 33, 0.7),rgba(79, 220, 74, 0.7),rgba(63, 218, 216, 0.7),rgba(47, 201, 226, 0.7),rgba(28, 127, 238, 0.7),rgba(95, 21, 242, 0.7),rgba(186, 12, 248, 0.7),rgba(251, 7, 217, 0.7),rgba(255, 0, 0, 0.7)) 1;
             
             animation:
                 imageShifter 2s ease-out 2s forwards,
                 tiltBoxes 2s ease-in-out 4.2s 1 forwards,
                 borderAnimation 5s linear 6.4s infinite;
+
+            transform: translateZ(0);
+            will-change: transform;
         }
 
         <!-- * Animations using keyframes (below) -->
