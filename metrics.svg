@@ -82,72 +82,35 @@
         }
 
         <!-- * Stying for animations (below )-->
-        <!-- Make headings within table data 50% smaller & 50% opaque -->
-        td {
-            border-image: conic-gradient(from 0.00deg, rgba(255, 0, 0, 0.7),rgba(255, 154, 0, 0.7),rgba(208, 222, 33, 0.7),rgba(79, 220, 74, 0.7),rgba(63, 218, 216, 0.7),rgba(47, 201, 226, 0.7),rgba(28, 127, 238, 0.7),rgba(95, 21, 242, 0.7),rgba(186, 12, 248, 0.7),rgba(251, 7, 217, 0.7),rgba(255, 0, 0, 0.7)) 1;
-
-            <!-- background: conic-gradient(rgba(255,0,0,0.7),rgba(255,154,0,0.7),rgba(208,222,33,0.7),rgba(79,220,74,0.7),rgba(63,218,216,0.7),rgba(47,201,226,0.7),rgba(28,127,238,0.7),rgba(95,21,242,0.7),rgba(186,12,248,0.7),rgba(251,7,217,0.7),rgba(255,0,0,0.7));
-            border-image-slice: 1; -->
-
-            <!-- background-color: rgba(0, 0, 0, 0.5);
-            z-index: -1; -->
-
-            <!-- animation:
-                tiltBoxes 10s ease-in-out 4.2s infinite forwards,
-                borderAnimation 5s linear 4.2s infinite; -->
+        <!-- put background icons offscreen, to be animated onscreen -->
+        #languagesIcon, #frameworksIcon, #databasesIcon, #productivityIcon, #operatingSystemIcon, #toolsIcon {
+        background-position: -350px;
         }
 
         td h1 {
+            <!-- Make headings within table data 50% smaller & 50% opaque -->
             font-size: 1em;
             opacity: 0.5;
-        }
 
-        <!-- put background icons offscreen, to be animated onscreen -->
-        #languagesIcon, #frameworksIcon, #databasesIcon {
-            background-position: -350px;
-            animation:
-                imageShifterLeft 2s ease-out 2s forwards,
-                
-                borderAnimation 3s linear 4.1s infinite,
-                tiltBoxes 2s ease-in-out 4.2s 1 forwards;
-        }
-        
-        #productivityIcon, #operatingSystemIcon, #toolsIcon {
-            background-position: 350px;
-            animation:
-                imageShifterRight 2s ease-out 2s forwards,
-                                
-                borderAnimation 3s linear 4.1s infinite,
-                tiltBoxes 2s ease-in-out 4.2s 1 forwards;
-        }
-
-        .headingRow1 {
             <!-- animation: name duration effect elementStyleToEndOn -->
             animation:
-                textShifterLeft 2s ease-out forwards,
+                textShifter 2s ease-out 0s forwards,
                 textEnlarger 2s ease-out 2s forwards;
         }
 
-        .headingRow2 {
-            <!-- play multiple animations at once (using comma) -->
+        td {
+            border-image: conic-gradient(from 0.00deg, rgba(255, 0, 0, 0.7),rgba(255, 154, 0, 0.7),rgba(208, 222, 33, 0.7),rgba(79, 220, 74, 0.7),rgba(63, 218, 216, 0.7),rgba(47, 201, 226, 0.7),rgba(28, 127, 238, 0.7),rgba(95, 21, 242, 0.7),rgba(186, 12, 248, 0.7),rgba(251, 7, 217, 0.7),rgba(255, 0, 0, 0.7)) 1;
+            
             animation:
-                textShifterRight 2s ease-out 0s forwards,
-                textEnlarger 2s ease-out 2s forwards;
+                imageShifter 2s ease-out 2s forwards,
+                tiltBoxes 2s ease-in-out 4.2s 1 forwards,
+                borderAnimation 5s linear 6.4s infinite;
         }
 
         <!-- * Animations using keyframes (below) -->
-        @keyframes textShifterLeft {
+        @keyframes textShifter {
             0% {
                 margin-left: 400%;
-            }
-            100% {
-                margin-left: 0%;
-            }
-        }
-
-        @keyframes textShifterRight {
-            0% {
-                margin-left: -400%;
             }
             100% {
                 margin-left: 0%;
@@ -165,20 +128,10 @@
             }
         }
 
-        @keyframes imageShifterLeft {
+        @keyframes imageShifter {
             0% {
                 <!-- x, y -->
                 background-position: -350px;
-            }
-            100% {
-                background-position: 0px;
-            }
-        }
-
-        @keyframes imageShifterRight {
-            0% {
-                <!-- x, y -->
-                background-position: 350px;
             }
             100% {
                 background-position: 0px;
