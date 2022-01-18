@@ -5,10 +5,15 @@
 <table border="5px" align="center">
     <tr>
         <td width="50%" align="center">  
-            <img alt="Github stats" src="https://github-readme-stats.vercel.app/api?username=AragornElessar1973&amp;count_private=true,prs&amp;show_icons=true&amp;hide_border=true&amp;theme=tokyonight"></img>
+            <img alt="Github stats" src="https://github-readme-stats-elendil7.vercel.app/api?username=elendil7&amp;theme=tokyonight&amp;count_private=true,prs&amp;show_icons=true&amp;hide_border=true"></img>
         </td>
         <td width="50%" align="center">
-            <img alt="Wakatime stats" src="https://github-readme-stats.vercel.app/api/wakatime?username=aragorn&amp;hide_border=true&amp;theme=tokyonight"></img>
+            <img alt="Wakatime stats" src="https://github-readme-stats-elendil7.vercel.app/api/wakatime?username=aragorn&amp;theme=tokyonight&amp;hide_border=true"></img>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="2">
+            <img alt="Top languages" src="https://github-readme-stats-elendil7.vercel.app/api/top-langs/?username=elendil7&amp;theme=tokyonight&amp;layout=compact&amp;count_private=true">
         </td>
     </tr>
 </table>
