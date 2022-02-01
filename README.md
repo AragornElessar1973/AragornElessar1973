@@ -16,4 +16,7 @@
             <img alt="Top languages" src="https://github-readme-stats-elendil7.vercel.app/api/top-langs/?username=elendil7&amp;theme=tokyonight&amp;layout=compact&amp;count_private=true">
         </td>
     </tr>
+    <tr>
+        <td><img src="https://www.codewars.com/users/elendil7/badges/large"></td>
+    </tr>
 </table>
