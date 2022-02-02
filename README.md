@@ -13,7 +13,7 @@
     </tr>
     <tr>
         <td align="center">
-            <img alt="Top languages" src="https://github-readme-stats-elendil7.vercel.app/api/top-langs/?username=elendil7&amp;theme=tokyonight&amp;layout=compact&amp;count_private=true">
+            <img alt="Top languages" src="https://github-readme-stats-elendil7.vercel.app/api/top-langs/?username=elendil7&amp;theme=tokyonight&amp;layout=compact&amp;count_private=true&amp;hide_border=true">
         </td>
         <td align="center"><img src="https://www.codewars.com/users/elendil7/badges/large"></td>
     </tr>
