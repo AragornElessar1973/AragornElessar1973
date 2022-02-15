@@ -17,4 +17,9 @@
         </td>
         <td align="center"><img src="https://www.codewars.com/users/elendil7/badges/large"></td>
     </tr>
+    <tr>
+        <td align="center" colspan="2">
+            <img src="http://img.10fastfingers.com/badge/typing-test_1_DK.png">
+        </td>
+    </tr>
 </table>
