@@ -1,0 +1,3 @@
+Creative Commons Attribution-ShareAlike 4.0 International License
+
+This license allows others to copy and redistribute the image in any medium or format, and to remix, transform, and build upon the material for any purpose, even commercially, as long as they give appropriate credit to the artist, SpentaMainyu, provide a link to the original work on DeviantArt (https://www.deviantart.com/spentamainyu/art/Morgoth-WIP-2-129324402), and indicate if changes were made. If others remix, transform, or build upon the material, they must distribute their contributions under the same license as the original.
