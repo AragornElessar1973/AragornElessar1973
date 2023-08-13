@@ -15,11 +15,15 @@
         <td align="center">
             <img alt="Top languages" src="https://github-readme-stats-elendil7.vercel.app/api/top-langs/?username=elendil7&amp;theme=tokyonight&amp;layout=compact&amp;count_private=true&amp;hide_border=true">
         </td>
-        <td align="center"><img src="https://www.codewars.com/users/elendil7/badges/large"></td>
+        <td align="center">
+            <img src="https://www.codewars.com/users/elendil7/badges/large">
+        </td>
     </tr>
     <tr>
-        <td align="center" colspan="2">
+        <td align="center" colspan="1">
             <img src="http://img.10fastfingers.com/badge/typing-test_1_DN.png">
+        </td>
+        <td align="center">
             <img src="https://data.typeracer.com/misc/badge?user=elendil7">
         </td>
     </tr>
