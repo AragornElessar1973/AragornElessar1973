@@ -2,7 +2,7 @@
     <img width="100%" alt="Stats & Metrics" src="./metrics.svg">
 </div>
 
-<table border="5px" align="center">
+<table border=1px align="center">
     <tr>
         <td width="50%" align="center">  
             <img alt="Github stats" src="https://github-readme-stats-elendil7.vercel.app/api?username=elendil7&amp;theme=tokyonight&amp;count_private=true,prs&amp;show_icons=true&amp;hide_border=true">
