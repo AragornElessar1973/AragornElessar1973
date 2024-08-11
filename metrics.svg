@@ -81,7 +81,7 @@
         <!-- * Stying for animations (below )-->
         <!-- put background icons offscreen, to be animated onscreen -->
         #languagesIcon, #frameworksIcon, #databasesIcon, #productivityIcon, #operatingSystemIcon, #toolsIcon {
-        background-position: -350px;
+            background-position: -350px;
         }
 
         td h1 {
@@ -96,17 +96,54 @@
         }
 
         td {
-            border: 3px solid rgba(128, 0, 0, 0.7);
-            border-radius: 50px;
+            border: double 5px rgba(128, 0, 0, 0.7);
+            border-radius: 10px;
             border-image: conic-gradient(from 0.00deg, rgba(255, 0, 0, 0.7),rgba(255, 154, 0, 0.7),rgba(208, 222, 33, 0.7),rgba(79, 220, 74, 0.7),rgba(63, 218, 216, 0.7),rgba(47, 201, 226, 0.7),rgba(28, 127, 238, 0.7),rgba(95, 21, 242, 0.7),rgba(186, 12, 248, 0.7),rgba(251, 7, 217, 0.7),rgba(255, 0, 0, 0.7)) 1;
-            
-            animation:
-                imageShifter 2s ease-out 2s forwards,
-                tiltBoxes 2s ease-in-out 4.2s 1 forwards,
-                borderAnimation 5s linear 6.4s infinite;
 
             transform: translateZ(0);
             will-change: transform;
+        }
+
+        td:nth-child(1) {
+            animation:
+                imageShifterLeftToRight 2s ease-out 2s forwards,
+                tiltBoxes 1.4s ease-in-out 4.2s 1 forwards,
+                borderAnimation 5s linear 6.4s infinite;
+        }
+
+        td:nth-child(2) {
+            animation:
+                imageShifterTopToBottom 2s ease-out 2s forwards,
+                tiltBoxes 1.4s ease-in-out 4.2s 1 forwards,
+                borderAnimation 5s linear 6.4s infinite;
+        }
+
+        td:nth-child(3) {
+            animation:
+                imageShifterRightToLeft 2s ease-out 2s forwards,
+                tiltBoxes 1.4s ease-in-out 4.2s 1 forwards,
+                borderAnimation 5s linear 6.4s infinite;
+        }
+
+        td:nth-child(4) {
+            animation:
+                imageShifterLeftToRight 2s ease-out 2s forwards,
+                tiltBoxes 1.4s ease-in-out 4.2s 1 forwards,
+                borderAnimation 5s linear 6.4s infinite;
+        }
+
+        td:nth-child(5) {
+            animation:
+                imageShifterBottomToTop 2s ease-out 2s backwards,
+                tiltBoxes 1.4s ease-in-out 4.2s 1 forwards,
+                borderAnimation 5s linear 6.4s infinite;
+        }
+
+        td:nth-child(6) {
+            animation:
+                imageShifterRightToLeft 2s ease-out 2s backwards,
+                tiltBoxes 1.4s ease-in-out 4.2s 1 forwards,
+                borderAnimation 5s linear 6.4s infinite;
         }
 
         <!-- * Animations using keyframes (below) -->
@@ -130,10 +167,37 @@
             }
         }
 
-        @keyframes imageShifter {
+        @keyframes imageShifterLeftToRight {
             0% {
                 <!-- x, y -->
                 background-position: -350px;
+            }
+            100% {
+                background-position: 0px;
+            }
+        }
+
+        @keyframes imageShifterRightToLeft {
+            0% {
+                background-position: 350px;
+            }
+            100% {
+                background-position: 0px;
+            }
+        }
+
+        @keyframes imageShifterTopToBottom {
+            0% {
+                background-position: 0px -350px;
+            }
+            100% {
+                background-position: 0px;
+            }
+        }
+
+        @keyframes imageShifterBottomToTop {
+            0% {
+                background-position: 0px 350px;
             }
             100% {
                 background-position: 0px;
@@ -259,10 +323,10 @@
 
     </style>
 
-    <foreignObject width="100%" height="100%">
+    <foreignObject width="100%" height="100%" class="bgImage">
     	<div xmlns="http://www.w3.org/1999/xhtml">
 
-            <body class="bgImage">
+            <body>
 
                 <h1>👋 Hello</h1>
 
