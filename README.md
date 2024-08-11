@@ -36,15 +36,13 @@
     </tr>
 </table>
 
-<table border="1" width="100%">
+<table align="center" border="1" width="100%">
     <tr>
         <td align="center" width="50%">
             <img src="http://img.10fastfingers.com/badge/typing-test_1_DN.png">
         </td>
         <td align="center" width="50%">
-            <div style="display: inline-block; text-align: center;">
-                <img src="https://data.typeracer.com/misc/badge?user=elendil7">
-            </div>
+            <img src="https://data.typeracer.com/misc/badge?user=elendil7">
         </td>
     </tr>
 </table>
