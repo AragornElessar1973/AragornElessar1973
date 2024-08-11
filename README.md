@@ -36,7 +36,7 @@
     </tr>
 </table>
 
-<table border="1px" align="center" width="100%">
+<!-- <table border="1px" align="center" width="100%">
     <tr>
         <td width="50%" align="center">
             <img width=100% src="http://img.10fastfingers.com/badge/typing-test_1_DN.png">
@@ -45,4 +45,4 @@
             <img width=50% src="https://data.typeracer.com/misc/badge?user=elendil7">
         </td>
     </tr>
-</table>
+</table> -->
