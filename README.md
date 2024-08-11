@@ -10,36 +10,41 @@
 <table border="1px" align="center">
     <tr>
         <td width="50%" align="center">  
-            <img alt="Github stats" src="https://github-readme-stats-1s7z-2q74earrn-elendil7s-projects.vercel.app/api?username=elendil7&amp;theme=tokyonight&amp;count_private=true,prs&amp;show_icons=true&amp;hide_border=true">
+            <img
+            alt="Github stats"
+            src="https://github-stats.vit.codes?username=elendil7&amp;theme=transparent&amp;show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&amp;show_icons=true&amp;rank_icon=percentile&amp;hide_border=true&amp;border_radius=25">
         </td>
+        <td align="center">
+            <img
+            alt="Top languages"
+            src="https://github-stats.vit.codes/top-langs?username=elendil7&amp;theme=transparent&amp;layout=donut&amp;count_private=true&amp;hide_border=true&amp;border_radius=25">
+        </td>
+    </tr>
+</table>
+
+<table border="1px" align="center">
+    <tr>
         <td width="50%" align="center">
-            <img alt="Wakatime stats" src="https://github-readme-stats-1s7z-2q74earrn-elendil7s-projects.vercel.app/api/wakatime?username=aragorn&amp;theme=tokyonight&amp;hide_border=true">
+            <img
+            alt="Wakatime stats"
+            src="https://github-stats.vit.codes/wakatime?username=aragorn&amp;theme=transparent&amp;hide_border=true&amp;layout=compact&amp;border_radius=25">
+        </td>
+        <td align="center">
+            <img
+            src="https://www.codewars.com/users/elendil7/badges/large">
         </td>
     </tr>
 </table>
 
-<table border="1px" align="center">
+<table border="1" width="100%">
     <tr>
-        <td align="center">
-            <img alt="Top languages" src="https://github-readme-stats-1s7z-2q74earrn-elendil7s-projects.vercel.app/api/top-langs/?username=elendil7&amp;theme=tokyonight&amp;layout=compact&amp;count_private=true&amp;hide_border=true">
-        </td>
-        <td align="center">
-            <img src="https://www.codewars.com/users/elendil7/badges/large">
-            <br>
-            <img src="https://www.codewars.com/users/elendil7/badges/small">
-            <br>
-            <img src="https://www.codewars.com/users/elendil7/badges/micro">
-        </td>
-    </tr>
-</table>
-
-<table border="1px" align="center">
-    <tr>
-        <td align="center" colspan="1">
+        <td align="center" width="50%">
             <img src="http://img.10fastfingers.com/badge/typing-test_1_DN.png">
         </td>
-        <td align="center">
-            <img src="https://data.typeracer.com/misc/badge?user=elendil7">
+        <td align="center" width="50%">
+            <div style="display: inline-block; text-align: center;">
+                <img src="https://data.typeracer.com/misc/badge?user=elendil7">
+            </div>
         </td>
     </tr>
 </table>
