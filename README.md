@@ -35,7 +35,7 @@
     </tr>
 </table>
 
-<img width="100%" align="center" alt="Currently listening" src="https://api.vit.codes/currently-listening">
+<img width="100%" align="center" alt="Currently listening" src="https://api.vit.codes/currently-listening?timestamp=691836800">
 
 <!-- <table border="1px" align="center" width="100%">
     <tr>
