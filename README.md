@@ -1,7 +1,7 @@
 <table border="1px" align="center">
     <tr>
-        <td colspan="5">
-            <img width="100%" alt="Stats & Metrics" src="./metrics.svg">
+        <td colspan="10">
+            <img width="100%" alt="Stats & Metrics" src="https://api.vit.codes/metrics">
         </td>
     </tr>
 </table>
@@ -35,15 +35,12 @@
     </tr>
 </table>
 
-<img width="100%" align="center" alt="Currently listening" src="https://api.vit.codes/currently-listening?timestamp=723423230">
-
-<!-- <table border="1px" align="center" width="100%">
+<table border="1px" align="center">
     <tr>
-        <td width="50%" align="center">
-            <img width=100% src="http://img.10fastfingers.com/badge/typing-test_1_DN.png">
-        </td>
-        <td width="50%" align="center">
-            <img width=50% src="https://data.typeracer.com/misc/badge?user=elendil7">
+        <td colspan="10">
+            <img width="100%" align="center" alt="Currently listening" src="https://api.vit.codes/currently-listening?timestamp=723423230">
         </td>
     </tr>
-</table> -->
+</table>
+
+
