@@ -38,7 +38,7 @@
 <table border="1px" align="center">
     <tr>
         <td colspan="10">
-            <img width="100%" align="center" alt="Currently listening" src="https://api.vit.codes/currently-listening?timestamp=723444192">
+            <img width="100%" align="center" alt="Currently listening" src="https://api.vit.codes/currently-listening?timestamp=723445013">
         </td>
     </tr>
 </table>
